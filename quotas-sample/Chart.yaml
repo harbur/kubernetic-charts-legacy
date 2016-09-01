@@ -1,0 +1,4 @@
+name: quotas-sample
+description: Resource Quotas Sample chart
+version: 1.0.0
+home: https://github.com/harbur/kubernetic-charts

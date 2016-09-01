@@ -1,0 +1,4 @@
+name: daemonset-sample
+description: Daemon Set Sample chart
+version: 1.0.0
+home: https://github.com/harbur/kubernetic-charts

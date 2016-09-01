@@ -1,0 +1,16 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: pi
+spec:
+  completions: 10
+  parallelism: 3
+  template:
+    metadata:
+      name: pi
+    spec:
+      containers:
+      - name: pi
+        image: busybox:1.24.2
+        command: ["sleep",  "5"]
+      restartPolicy: Never

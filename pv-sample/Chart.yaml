@@ -1,0 +1,4 @@
+name: pv-sample
+description: Persistent Volume Sample Chart
+version: 1.0.0
+home: https://github.com/harbur/kubernetic-charts

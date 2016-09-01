@@ -1,0 +1,4 @@
+name: job-sample
+description: Job Sample Chart
+version: 1.0.0
+home: https://github.com/harbur/kubernetic-charts

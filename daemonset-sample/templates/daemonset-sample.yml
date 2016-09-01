@@ -1,0 +1,18 @@
+apiVersion: extensions/v1beta1
+kind: DaemonSet
+metadata:
+  name: daemonset-sample
+  labels:
+    app: daemonset-sample
+spec:
+  template:
+    metadata:
+      labels:
+        name: daemonset-sample
+    spec:
+      hostPID: true
+      hostIPC: true
+      hostNetwork: true
+      containers:
+        - image: nginx:1.10
+          name: daemonset-sample
