@@ -7,6 +7,4 @@ spec:
   containers:
   - name: hello
     image: "ubuntu:14.04"
-    env:
-    command: ["/bin/sh","-c"]
-    args: ["/bin/echo 'hello world'"]
+    command: ["echo", "hello world"]
