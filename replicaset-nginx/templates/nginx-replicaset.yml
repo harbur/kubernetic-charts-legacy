@@ -1,0 +1,27 @@
+apiVersion: extensions/v1beta1
+kind: ReplicaSet
+metadata:
+  name: nginx
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: nginx
+      template: replicaset
+    matchExpressions:
+      - {key: app, operator: In, values: [nginx]}
+  template:
+    metadata:
+      labels:
+        app: nginx
+        template: replicaset
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:1.11
+        ports:
+        - containerPort: 80
+        resources:
+          requests:
+            cpu: 100m
+            memory: 100Mi
