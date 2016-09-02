@@ -6,5 +6,5 @@ spec:
   restartPolicy: Never
   containers:
   - name: hello
-    image: "ubuntu:14.04"
+    image: "alpine:3.4"
     command: ["echo", "hello world"]
