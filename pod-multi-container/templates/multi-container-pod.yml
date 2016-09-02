@@ -11,5 +11,4 @@ spec:
     - containerPort: 80
   - name: alpine
     image: alpine:3.4
-    # command: ["wget", "localhost"]
     command: ["watch", "wget", "-qO-", "localhost"]
