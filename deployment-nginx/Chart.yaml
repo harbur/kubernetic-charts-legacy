@@ -1,0 +1,4 @@
+name: Deployment Nginx
+description: Deployment Nginx example
+version: 1.0.0
+home: https://github.com/harbur/kubernetic-charts
