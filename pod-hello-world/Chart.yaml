@@ -1,0 +1,4 @@
+name: Pod Hello World
+description: Pod Hello World example
+version: 1.0.0
+home: https://github.com/harbur/kubernetic-charts
