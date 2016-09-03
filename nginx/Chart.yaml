@@ -1,0 +1,4 @@
+name: Nginx
+description: 3 Nginx instances under a Service
+version: 1.10
+home: http://nginx.org/
