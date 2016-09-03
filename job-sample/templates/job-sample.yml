@@ -11,6 +11,6 @@ spec:
     spec:
       containers:
       - name: pi
-        image: busybox:1.24.2
+        image: alpine:3.4
         command: ["sleep",  "5"]
       restartPolicy: Never

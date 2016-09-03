@@ -1,4 +1,4 @@
-name: ReplicaSet Nginx
-description: ReplicaSet Nginx example
+name: Replica Set Nginx
+description: Runs 2 Nginx instances using Replica Set
 version: 1.0.0
 home: https://github.com/harbur/kubernetic-charts

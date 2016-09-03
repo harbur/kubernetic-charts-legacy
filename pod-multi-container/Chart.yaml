@@ -1,4 +1,4 @@
 name: Pod Multi Container
-description: Pod Multi Container example
+description: Runs a Pod with two containers, an Nginx instance and an Alpine OS that does curl requests every 2 seconds on the Nginx.
 version: 1.0.0
 home: https://github.com/harbur/kubernetic-charts
