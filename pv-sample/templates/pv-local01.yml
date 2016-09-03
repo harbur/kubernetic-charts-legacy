@@ -10,4 +10,4 @@ spec:
   accessModes:
     - ReadWriteMany
   hostPath:
-    path: "/tutorial/data01"
+    path: "/data/tutorial/pv0001/"
