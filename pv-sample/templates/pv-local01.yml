@@ -6,8 +6,8 @@ metadata:
     type: local
 spec:
   capacity:
-    storage: 10Gi
+    storage: 2Gi
   accessModes:
-    - ReadWriteOnce
+    - ReadWriteMany
   hostPath:
-    path: "/somepath/data01"
+    path: "/tutorial/data01"

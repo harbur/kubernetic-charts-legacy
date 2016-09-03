@@ -1,0 +1,30 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  labels:
+    name: ghost
+  name: ghost
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        name: ghost
+    spec:
+      containers:
+      - image: ghost:0.10
+        name: ghost
+        env:
+        - name: NODE_ENV
+          value: "development"
+        ports:
+        - containerPort: 2368
+          name: http-server
+        volumeMounts:
+            - name: ghost
+              mountPath: /var/lib/ghost
+              subPath: "ghost"
+      volumes:
+        - name: ghost
+          persistentVolumeClaim:
+            claimName: ghost-claim
