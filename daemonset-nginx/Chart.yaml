@@ -1,4 +1,4 @@
-name: Daemon Set Sample
+name: Daemon Set Nginx
 description: Runs one Nginx instance in each Node.
 version: 1.0.0
 home: https://github.com/harbur/kubernetic-charts
