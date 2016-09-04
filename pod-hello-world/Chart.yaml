@@ -1,4 +1,4 @@
-name: Pod Hello World
+name: pod-hello-world
 description: Outputs "Hello World" and exits.
-version: 1.0.0
+version: 0.1.0
 home: https://github.com/harbur/kubernetic-charts

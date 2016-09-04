@@ -1,4 +1,4 @@
-name: Nginx
+name: nginx
 description: 3 Nginx instances under a Service
-version: 1.10
+version: 0.1.0
 home: http://nginx.org/

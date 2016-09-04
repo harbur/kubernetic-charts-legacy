@@ -1,4 +1,4 @@
-name: pod-nginx
-description: Runs Nginx
+name: configmap-sample
+description: Config Map Sample Chart
 version: 0.1.0
 home: https://github.com/harbur/kubernetic-charts

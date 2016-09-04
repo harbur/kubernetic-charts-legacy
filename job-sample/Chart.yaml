@@ -1,4 +1,4 @@
-name: Job Sample
+name: job-sample
 description: Runs a batch job of 10 instances, with a max of 3 in parallel.
-version: 1.0.0
+version: 0.1.0
 home: https://github.com/harbur/kubernetic-charts

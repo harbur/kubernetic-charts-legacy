@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: configmap-sample
+data:
+  key-a: bob
+  key-b: alice
+  key-c: |
+    This is a multiline
+    data value

@@ -1,4 +1,4 @@
-name: Deployment Nginx
+name: deployment-nginx
 description: Runs 2 Nginx instances using Deployment
-version: 1.0.0
+version: 0.1.0
 home: https://github.com/harbur/kubernetic-charts
