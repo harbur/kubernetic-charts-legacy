@@ -8,13 +8,8 @@ spec:
   containers:
   - name: alpine
     image: alpine:3.4
-    command: ["echo", "hello $(username) $(password)"]
+    command: ["echo", "hello $(password)"]
     env:
-    - name: username
-      valueFrom:
-        secretKeyRef:
-          name: {{.Release.Name}}-secret
-          key: username
     - name: password
       valueFrom:
         secretKeyRef:
