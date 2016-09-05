@@ -11,3 +11,4 @@ spec:
     - ReadWriteOnce
   hostPath:
     path: "/data/tutorial/pv0001/"
+  persistentVolumeReclaimPolicy: "Recycle"
