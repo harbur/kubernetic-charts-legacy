@@ -2,6 +2,8 @@ kind: PersistentVolumeClaim
 apiVersion: v1
 metadata:
   name: myclaim-1
+  labels:
+    temporal: "true"
 spec:
   accessModes:
     - ReadWriteOnce
