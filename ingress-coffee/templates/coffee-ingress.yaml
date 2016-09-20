@@ -13,9 +13,9 @@ spec:
       paths:
       - path: /tea
         backend:
-          serviceName: tea-svc
+          serviceName: tea
           servicePort: 80
       - path: /coffee
         backend:
-          serviceName: coffee-svc
+          serviceName: coffee
           servicePort: 80
