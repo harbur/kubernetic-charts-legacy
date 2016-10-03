@@ -7,4 +7,4 @@ spec:
   containers:
   - name: hello
     image: "alpine:3.4"
-    command: ["echo", "hello world"]
+    command: ["echo", "{{.Values.message}}"]
