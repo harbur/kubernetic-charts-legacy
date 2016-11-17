@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: configmap-sample
+  name: {{ template "fullname" . }}
 data:
   key-a: bob
   key-b: alice
