@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: "{{.Release.Name}}-pod"
+  name: {{.Release.Name}}-pod
 spec:
   terminationGracePeriodSeconds: 0
   restartPolicy: Never
@@ -13,5 +13,5 @@ spec:
     - name: password
       valueFrom:
         secretKeyRef:
-          name: {{.Release.Name}}-secret
+          name: {{.Release.Name}}
           key: password
