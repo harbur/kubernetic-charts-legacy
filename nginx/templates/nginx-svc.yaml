@@ -5,6 +5,7 @@ metadata:
   labels:
     app: nginx
 spec:
+  type: LoadBalancer
   ports:
     - name: web
       port: 80
