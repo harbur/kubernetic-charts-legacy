@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: {{.Release.Name}}-pod
+  name: {{.Release.Name}}-env
 spec:
   terminationGracePeriodSeconds: 0
   restartPolicy: Never

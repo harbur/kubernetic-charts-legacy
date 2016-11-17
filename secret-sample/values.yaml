@@ -1,0 +1,2 @@
+# To add a binary-format secret file do `cat filename|base64` and copy the content on the variable below
+SecretFileContent: aGVsbG8gd29ybGQK
