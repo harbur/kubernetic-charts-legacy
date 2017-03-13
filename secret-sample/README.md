@@ -38,7 +38,7 @@ spec:
   restartPolicy: Never
   containers:
   - name: alpine
-    image: alpine:3.4
+    image: alpine:3.5
     command: ["echo", "hello $(password)"]
     env:
     - name: password

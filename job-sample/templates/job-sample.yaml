@@ -11,6 +11,6 @@ spec:
     spec:
       containers:
       - name: pi
-        image: alpine:3.4
+        image: alpine:3.5
         command: ["sleep",  "5"]
       restartPolicy: Never

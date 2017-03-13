@@ -6,5 +6,5 @@ spec:
   restartPolicy: Never
   containers:
   - name: hello
-    image: "alpine:3.4"
+    image: "alpine:3.5"
     command: ["echo", "{{.Values.message}}"]

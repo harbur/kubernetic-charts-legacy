@@ -6,7 +6,7 @@ spec:
   restartPolicy: Never
   containers:
   - name: app
-    image: "alpine:3.4"
+    image: "alpine:3.5"
     command: ["cat", "/config/app.conf"]
     volumeMounts:
     - mountPath: /config
