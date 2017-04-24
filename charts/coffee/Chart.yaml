@@ -1,3 +1,6 @@
 description: Two example deployments, coffee and tea.
 name: coffee
-version: 0.1.0
+version: 0.2.0
+keywords:
+- nginx
+home: https://github.com/nginxinc/NGINX-Demos/tree/master/kubernetes-demo/third
