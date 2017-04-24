@@ -13,6 +13,4 @@ $ helm repo add kubernetic https://harbur.github.io/kubernetic-charts/
 
 Through Kubernetic:
 
-`Settings` > `Repositories`: Add Repository
-
-* `https://github.com/harbur/kubernetic-charts.git`
+`Settings` > `Repositories` > `Add Repository`: [https://github.com/harbur/kubernetic-charts.git](https://github.com/harbur/kubernetic-charts.git)
