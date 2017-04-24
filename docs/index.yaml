@@ -1,0 +1,163 @@
+apiVersion: v1
+entries:
+  coffee:
+  - created: 2017-04-24T14:20:21.612100527+02:00
+    description: Two example deployments, coffee and tea.
+    digest: c59265221948bf6f5b0cf6bbb57a7b33b03bfdbbfba28817ddff2af1431b7f6d
+    name: coffee
+    urls:
+    - https://harbur.github.io/kubernetic-charts/coffee-0.1.0.tgz
+    version: 0.1.0
+  configmap-sample:
+  - created: 2017-04-24T14:20:21.6128511+02:00
+    description: Config Map Sample Chart
+    digest: c4c4b4e72daab2eab0c02e614e9c50d6b5f946ee9bbd4be16772443a93dea0ad
+    home: https://github.com/harbur/kubernetic-charts
+    name: configmap-sample
+    urls:
+    - https://harbur.github.io/kubernetic-charts/configmap-sample-0.1.0.tgz
+    version: 0.1.0
+  daemonset-sample:
+  - created: 2017-04-24T14:20:21.613246679+02:00
+    description: Runs one Nginx instance in each Node.
+    digest: 15b371f3d2e2a0a79764430c8496e9c8a2628b0dc3290a8a8018ea32c922c1e5
+    home: https://github.com/harbur/kubernetic-charts
+    name: daemonset-sample
+    urls:
+    - https://harbur.github.io/kubernetic-charts/daemonset-sample-0.1.0.tgz
+    version: 0.1.0
+  deployment-nginx:
+  - created: 2017-04-24T14:20:21.613657629+02:00
+    description: Runs 2 Nginx instances using Deployment
+    digest: 88f56b08fadab70a5dd26461246b1df4c30f1831a74c1af7e7191a7d5e2ddc55
+    home: https://github.com/harbur/kubernetic-charts
+    name: deployment-nginx
+    urls:
+    - https://harbur.github.io/kubernetic-charts/deployment-nginx-0.1.0.tgz
+    version: 0.1.0
+  ghost:
+  - created: 2017-04-24T14:20:21.61404539+02:00
+    description: Blog powered by Ghost engine
+    digest: 94d5479c7066159bd97e35c74fa9559e4299131660b6b06eb2c9747423c8f08c
+    home: https://ghost.org/
+    name: ghost
+    urls:
+    - https://harbur.github.io/kubernetic-charts/ghost-0.1.0.tgz
+    version: 0.1.0
+  ingress-coffee:
+  - created: 2017-04-24T14:20:21.614689719+02:00
+    description: A Helm chart for Kubernetes
+    digest: 9df1dabc5ad0c94dd066ce2f8172e1401676f9c5343d6249ec70aa1b3e69ec85
+    name: ingress-coffee
+    urls:
+    - https://harbur.github.io/kubernetic-charts/ingress-coffee-0.1.0.tgz
+    version: 0.1.0
+  job-sample:
+  - created: 2017-04-24T14:20:21.61517875+02:00
+    description: Runs a batch job of 10 instances, with a max of 3 in parallel.
+    digest: 46c3501fd200743f662a89c87d82401f1485583996da61fc17ee9d75046a478f
+    home: https://github.com/harbur/kubernetic-charts
+    name: job-sample
+    urls:
+    - https://harbur.github.io/kubernetic-charts/job-sample-0.1.0.tgz
+    version: 0.1.0
+  limitrange-sample:
+  - created: 2017-04-24T14:20:21.61557532+02:00
+    description: Limit Range Sample Chart
+    digest: 76ead391ab61b3cb526cff692182eaf65815a07f180978ddab26e27b4e9f77ee
+    home: https://github.com/harbur/kubernetic-charts
+    name: limitrange-sample
+    urls:
+    - https://harbur.github.io/kubernetic-charts/limitrange-sample-0.1.0.tgz
+    version: 0.1.0
+  nginx:
+  - created: 2017-04-24T14:20:21.616020862+02:00
+    description: 3 Nginx instances under a Service
+    digest: 0fc7e244c36ea74949c1bc2ec4c9f234a8c0c83d8af2d82edc79a6688e089dc5
+    home: http://nginx.org/
+    name: nginx
+    urls:
+    - https://harbur.github.io/kubernetic-charts/nginx-0.1.0.tgz
+    version: 0.1.0
+  nginx-ingress:
+  - created: 2017-04-24T14:20:21.616427481+02:00
+    description: A Helm chart for Kubernetes
+    digest: 591fa4d62903c5ac60d06cdd35c7da24d93faeb7573fc1a348d10dce8ba2990c
+    name: nginx-ingress
+    urls:
+    - https://harbur.github.io/kubernetic-charts/nginx-ingress-0.1.0.tgz
+    version: 0.1.0
+  persistentvolume-sample:
+  - created: 2017-04-24T14:20:21.61679801+02:00
+    description: Persistent Volume Sample Chart
+    digest: 8b8d14e8debfc7529c5214b3074e133eb9f862795bd3d929cc16bc2566ef400d
+    home: https://github.com/harbur/kubernetic-charts
+    name: persistentvolume-sample
+    urls:
+    - https://harbur.github.io/kubernetic-charts/persistentvolume-sample-0.1.0.tgz
+    version: 0.1.0
+  persistentvolumeclaim-sample:
+  - created: 2017-04-24T14:20:21.617131751+02:00
+    description: Persistent Volume Claim Sample Chart
+    digest: 53dd6a88a454400bf20f3e69d64d27900eed635ae99bdc12c294f90f4c3fff00
+    home: https://github.com/harbur/kubernetic-charts
+    name: persistentvolumeclaim-sample
+    urls:
+    - https://harbur.github.io/kubernetic-charts/persistentvolumeclaim-sample-0.1.0.tgz
+    version: 0.1.0
+  pod-hello-world:
+  - created: 2017-04-24T14:20:21.617724513+02:00
+    description: Outputs "Hello World" and exits.
+    digest: 632e2bce6299993ee0c06525f352ae0539d35a9b72efa3df412ee2b69444a041
+    home: https://github.com/harbur/kubernetic-charts
+    name: pod-hello-world
+    urls:
+    - https://harbur.github.io/kubernetic-charts/pod-hello-world-0.1.0.tgz
+    version: 0.1.0
+  pod-multi-container:
+  - created: 2017-04-24T14:20:21.619003099+02:00
+    description: Runs a Pod with two containers, an Nginx instance and an Alpine OS
+      that does curl requests every 2 seconds on the Nginx.
+    digest: 6248b2ccc33fb852225fd183e087613fe29e61890ed6cc6074ee133cd43bf873
+    home: https://github.com/harbur/kubernetic-charts
+    name: pod-multi-container
+    urls:
+    - https://harbur.github.io/kubernetic-charts/pod-multi-container-0.1.0.tgz
+    version: 0.1.0
+  pod-nginx:
+  - created: 2017-04-24T14:20:21.619425057+02:00
+    description: Runs Nginx
+    digest: 35ee2903c2f9d0476b843324fe5a38d3696592ceea5a1047aa3008342e29fff5
+    home: https://github.com/harbur/kubernetic-charts
+    name: pod-nginx
+    urls:
+    - https://harbur.github.io/kubernetic-charts/pod-nginx-0.1.0.tgz
+    version: 0.1.0
+  replicaset-nginx:
+  - created: 2017-04-24T14:20:21.619780966+02:00
+    description: Runs 2 Nginx instances using Replica Set
+    digest: a02d2e42971b38706de679d3a94b63637f4f64ea6e14fb2e78a60b5561d7a747
+    home: https://github.com/harbur/kubernetic-charts
+    name: replicaset-nginx
+    urls:
+    - https://harbur.github.io/kubernetic-charts/replicaset-nginx-0.1.0.tgz
+    version: 0.1.0
+  resourcequota-sample:
+  - created: 2017-04-24T14:20:21.620152014+02:00
+    description: Resource Quotas Sample chart
+    digest: 9e94a3cdb9a20c341393d4593aca7ca94bee58957ff328815292033def38fd54
+    home: https://github.com/harbur/kubernetic-charts
+    name: resourcequota-sample
+    urls:
+    - https://harbur.github.io/kubernetic-charts/resourcequota-sample-0.1.0.tgz
+    version: 0.1.0
+  secret-sample:
+  - created: 2017-04-24T14:20:21.620535948+02:00
+    description: Secret Sample
+    digest: fd22338ea91e695bf5536b93c6bd6b9143911256081704cef81a51d3a3c41840
+    home: https://github.com/harbur/kubernetic-charts
+    name: secret-sample
+    urls:
+    - https://harbur.github.io/kubernetic-charts/secret-sample-0.1.0.tgz
+    version: 0.1.0
+generated: 2017-04-24T14:20:21.609829282+02:00
