@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: "{{ include "deploy-multi-container.fullname" . }}-test-connection"
+  labels:
+{{ include "deploy-multi-container.labels" . | indent 4 }}
+  annotations:
+    "helm.sh/hook": test-success
+spec:
+  containers:
+    - name: wget
+      image: busybox
+      command: ['wget']
+      args:  ['{{ include "deploy-multi-container.fullname" . }}:{{ .Values.service.port }}']
+  restartPolicy: Never
